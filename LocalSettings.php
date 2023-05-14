@@ -30,7 +30,7 @@ $wgMetaNamespace = "Mon_premier_wiki";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://localhost:31791";
+$wgServer = "http://localhost:30000";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -100,14 +100,14 @@ $wgLocaltimezone = "UTC";
 ## be publicly accessible from the web.
 #$wgCacheDirectory = "$IP/cache";
 
-$wgSecretKey = "fb86d9d4abbebb4f608cc6ec8e43df444428a43ca9d84baff7730554c1a1875e";
+$wgSecretKey = "e7e0e257a06fa03b5e1e99c4668b3c504e406bf5c66364f61ab841547d8c6563";
 
 # Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = "1";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "f19687db3fb87d20";
+$wgUpgradeKey = "74ff24957052050d";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
